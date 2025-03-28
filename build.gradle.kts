@@ -10,6 +10,9 @@ repositories {
 }
 
 dependencies {
+    implementation("org.apache.beam:beam-sdks-java-core:2.63.0")
+    implementation("org.apache.beam:beam-runners-direct-java:2.63.0")
+
     testImplementation(kotlin("test"))
 }
 
