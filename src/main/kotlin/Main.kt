@@ -1,5 +1,7 @@
 package org.alexiscrack3
 
 fun main() {
-    InMemoryCollection.run()
+//    InMemoryCollection.run()
+    val pipeline = TextFilePipeline()
+    pipeline.run()
 }
